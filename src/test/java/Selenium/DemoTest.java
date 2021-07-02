@@ -35,6 +35,7 @@ public class DemoTest extends Selenium.BaseTest {
         th.setBookingStrategy("multitrip");
 
         th.checkAvail(reservationDetails);
+	System.out.println("Hello World");
     }
 
     @AfterTest
