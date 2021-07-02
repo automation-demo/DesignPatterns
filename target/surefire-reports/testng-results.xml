@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="25364" started-at="2021-07-02T17:03:40 IST" finished-at="2021-07-02T17:04:05 IST">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="25364" started-at="2021-07-02T17:03:40 IST" finished-at="2021-07-02T17:04:05 IST">
+      <class name="Selenium.DemoTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Selenium.DemoTest@2b2948e2]" name="setUp" is-config="true" duration-ms="2281" started-at="2021-07-02T17:03:40 IST" finished-at="2021-07-02T17:03:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="flightTest(java.util.HashMap)[pri:0, instance:Selenium.DemoTest@2b2948e2]" name="flightTest" duration-ms="14308" started-at="2021-07-02T17:03:43 IST" data-provider="getData" finished-at="2021-07-02T17:03:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{destination=HYD, origin2=DEL, origin=MAA}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightTest -->
+        <test-method status="PASS" signature="flightTest(java.util.HashMap)[pri:0, instance:Selenium.DemoTest@2b2948e2]" name="flightTest" duration-ms="7465" started-at="2021-07-02T17:03:57 IST" data-provider="getData" finished-at="2021-07-02T17:04:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{destination=DEL, origin2=HYD, origin=BLR}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Selenium.DemoTest@2b2948e2]" name="tearDown" is-config="true" duration-ms="766" started-at="2021-07-02T17:04:04 IST" finished-at="2021-07-02T17:04:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Selenium.DemoTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
